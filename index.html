@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+ <title>New ZeroNet site!</title>
+ <meta charset="utf-8">
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <base href="" target="_top" id="base">
+ <link rel="stylesheet" href="style.css">
+
+ <script>base.href = document.location.href.replace("/media", "").replace("index.html", "").replace(/[&?]wrapper=False/, "").replace(/[&?]wrapper_nonce=[A-Za-z0-9]+/, "")</script>
+</head>
+
+  <body>
+
+<div class="center">
+
+  <a href="#Select+user" id="select_user" onclick='return page.selectUser()'>Select user</a>:
+  <input type="text" id="message" onkeypress="if (event.keyCode == 13) page.sendMessage()">
+
+  <input type="button" id="send" value="Send!" onclick="return page.sendMessage()"/>
+
+<!-- display messages here start -->
+  <ul id="messages">
+   <li>ZeroTwitter clone, based off zerochat tutorial</li>
+  </ul>
+<!-- display messages here stop -->
+
+</div>
+
+  <li class="todolist">&#10004; Sort by inputdate/time</li>
+        <li class="todolist">&#10004; add username to post</li>
+        <li class="todolist">Limit post size</li>
+        <li class="todolist">&#10004; userlogin by hash / id</li>
+        <li class="todolist">clone and documentation</li>
+        <li class="todolist">Channels?</li>
+        <li class="todolist">Fix the horrible colors</li>
+                <li class="todolist">Be able to post links</li>
+        <li class="todolist">ideas? Post Ideas please</li>
+
+
+  <script type="text/javascript" src="js/ZeroFrame.js"></script>
+  <script type="text/javascript" src="js/zerotweet.js"></script>
+
+
+  </body>
+
+
+</html>

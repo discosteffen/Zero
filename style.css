@@ -1,0 +1,54 @@
+html {
+	font: 62.5% "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+	background: #fff;
+}
+body {
+	margin: 0;
+	text-align: left;
+	color: #444;
+	font-size:1.6em;
+	line-height: 1.5em;
+	position: relative;
+}
+
+
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+a {
+    color: hotpink;
+}
+
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+li{
+  background-color: white;
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 1px;
+  padding: 5px;
+  margin: 5px;
+}
+
+li { background: #eff1f4; }
+
+li:nth-child(odd) { background: #bfd7ff; }
+
+li.todolist{
+  background: white;
+  background-color: white;
+  border-style: solid;
+  border-radius: 0px;
+  border-width: 0px;
+  padding: 0px;
+  margin: 0px;
+}
